@@ -228,3 +228,64 @@ body::-webkit-scrollbar {
 .tech-logo:nth-child(2) { animation-delay: 0.4s; }
 .tech-logo:nth-child(3) { animation-delay: 0.6s; }
 .tech-logo:nth-child(4) { animation-delay: 0.8s; }
+
+/* Contact Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto 0;
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #030303;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #6e8efb;
+  box-shadow: 0 0 5px rgba(110, 142, 251, 0.3);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 12px 30px;
+  font-size: 1rem;
+}
+
